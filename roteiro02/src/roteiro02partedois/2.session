@@ -1,0 +1,13 @@
+window_sizes 1366 745 320 1041 631 68
+
+diagrams
+  active  classdiagram_ref 128130 // PersonTwo
+    1024 594 100 A4 17 0
+end
+show_stereotypes
+selected 
+  package_ref 129 // roteiro02partedois
+open
+  class_ref 128258 // Persontwo
+end
+end

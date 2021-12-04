@@ -1,0 +1,33 @@
+format 224
+
+classcanvas 128002 class_ref 128258 // Persontwo
+  classdiagramsettings member_max_width 0 end
+  xyzwh 9 25 2000 385 149
+end
+classcanvas 128130 class_ref 128386 // Student
+  classdiagramsettings member_max_width 0 end
+  xyzwh 6 207 2000 659 227
+end
+note 128642 "Person two calculate age?"
+  xyzwh 435 75 2000 163 35
+note 128898 "Student situacion cadastro"
+  xyzwh 619 114 2000 163 35
+classcanvas 129154 class_ref 134914 // Employee
+  classdiagramsettings member_max_width 0 end
+  xyzwh -1 463 2000 811 325
+end
+relationcanvas 128514 relation_ref 128130 // <generalisation>
+  from ref 128130 z 2001 to ref 128002
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129410 relation_ref 134658 // <generalisation>
+  from ref 129154 z 2001 to ref 128002
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+line 128770 -_-_
+  from ref 128642 z 2001 to ref 128002
+line 129026 -_-_
+  from ref 128130 z 2001 to ref 128898
+end
